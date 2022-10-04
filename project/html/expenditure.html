@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/wallet.css" />
+    <title>Expenditure</title>
+  </head>
+  <body>
+    <div class="wallet-container text-center">
+      <div class="amount-box text-center">
+        <h3>Add new transaction</h3>
+        <form id="form">
+          <div class="form-control">
+            <label for="transaction">Transaction</label>
+            <input
+              type="text"
+              id="transaction"
+              placeholder="Enter transaction heading"
+            />
+          </div>
+          <div class="form-control">
+            <label for="amount">Amount </label>
+            <input type="number" id="amount" placeholder="Enter amount" />
+          </div>
+          <div class="form-control">
+            <label for="transaction-details">Transaction Details</label>
+            <textarea
+              id="transaction-details"
+              name="transaction-details"
+              rows="5"
+              placeholder="Enter transaction heading"
+            ></textarea>
+          </div>
+          <button id="btn" onclick="alert('Added successfully');">
+            Add transaction
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
