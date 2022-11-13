@@ -50,6 +50,10 @@ body {
   font-size: 12px;
 }
 
+.btn-group .link-text{
+  color:#000000"
+}
+
 .txn-history {
   text-align: left;
 }
@@ -253,4 +257,5 @@ textarea {
 #btn-delete-history:focus,
 .delete-btn:focus {
   outline: 0;
+}
 }

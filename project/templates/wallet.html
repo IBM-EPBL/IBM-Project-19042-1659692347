@@ -1,12 +1,10 @@
 <html>
   <html lang="en">
     <head>
-      <meta charset="UTF-8" />
-      <title>E-wallet</title>
+      {% block head %}{% endblock %}
       <link
         rel="stylesheet"
-        href="../css/wallet.css
-    "
+        href="{{url_for('static', filename='css/wallet.css')}}"
       />
       <link
         rel="stylesheet"
@@ -16,6 +14,7 @@
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       />
+    <title>Wallet</title>
     </head>
     <body>
       <div class="wallet-container text-center">
@@ -33,20 +32,23 @@
         </div>
 
         <div class="btn-group text-center">
+          <a class="link-text" href="{{url_for('expenditure')}}">
           <button
             type="button"
             class="btn btn-outline-dark"
             onClick="location.href='expenditure.html'"
           >
-            Add Money
+          Add Money
           </button>
-          <button
+        </a>
+        <a href="{{url_for('error')}}">
+        <button
             type="button"
             class="btn btn-outline-dark"
-            onClick="location.href='404.html'"
           >
             Widthdraw
           </button>
+          </a>
         </div>
 
         <div class="txn-history">

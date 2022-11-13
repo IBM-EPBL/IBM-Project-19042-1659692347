@@ -1,10 +1,15 @@
 <html>
-  <link rel="stylesheet" href="../css/index.css" />
+  <head>
+    {% block head %}{% endblock %}
+    
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}"/>
+    <title>Personal Tracker</title>
+  </head>
   <body>
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="wallet.html" class="sign-in-form">
+          <form action="{{ url_for('wallet') }}" class="sign-in-form">
             <h2 class="title">Log in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -16,7 +21,7 @@
             </div>
             <input type="submit" value="Login" class="btn solid" />
           </form>
-          <form action="wallet.html" class="sign-up-form">
+          <form action="{{ url_for('wallet') }}" class="sign-up-form">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
