@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 
 {% block body %} 
-
+<div class="container">
 <p> Currently your MONTHLY limit is ₹ {{y}} </p>
 <style>
     body{
-    font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 </style>
 
@@ -16,7 +17,7 @@
     <input type="number" name="number" required/> <span> 
         <button class="btn btn-warning" type="submit">ENTER</button>
     </span>
-    
+</div>
 
 
 

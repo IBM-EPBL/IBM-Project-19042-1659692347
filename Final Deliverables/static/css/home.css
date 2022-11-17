@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import 'https://fonts.googleapis.com/css?family=Lato:300, 400, 700&display=swap';
 * {
 	padding: 0;
 	margin: 0;
@@ -107,7 +107,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	z-index: 1;
-	overflow-x: hidden;
+	
 	transition: 0.5s ease left;
 }
 #header .nav-list ul.active {
@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(../images/hero-bg.png);
+	background-image: url(../images/home.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -296,7 +296,6 @@ p {
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
-	overflow: hidden;
 }
 #services .service-item::after {
 	content: '';
@@ -349,7 +348,6 @@ p {
 	flex-direction: column;
 	width: 80%;
 	margin: 20px auto;
-	overflow: hidden;
 	border-radius: 10px;
 }
 #projects .project-info {
@@ -378,7 +376,6 @@ p {
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
-	overflow: hidden;
 	position: relative;
 }
 #projects .project-img:after {
