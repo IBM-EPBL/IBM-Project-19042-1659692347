@@ -2,7 +2,7 @@
 Personal Expense Tracker Application
 
 ### Team Members:
- Team Lead: Lakshmi Narayanan R
+ - Lakshmi Narayanan R (Team Lead)
  - Nithish R
  - Santhosh B
  - Saravanan V
