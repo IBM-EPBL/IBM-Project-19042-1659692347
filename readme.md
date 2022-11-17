@@ -1,6 +1,13 @@
 ### Project Name:
 Personal Expense Tracker Application
 
+### Team Members:
+ Team Lead: Lakshmi Narayanan R
+ - Nithish R
+ - Santhosh B
+ - Saravanan V
+ - Sharan Raj G
+
 ### Tech Stack:
 IBM Cloud,HTML,Javascript,IBM Cloud Object Storage,Python-Flask,Kubernetes,Docker,IBM DB2,IBM Container Registry
 
