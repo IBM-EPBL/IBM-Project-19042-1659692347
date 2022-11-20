@@ -19,8 +19,7 @@ app = Flask(__name__)
 
 app.secret_key = 'a'
 
-conn=ibm_db.connect("DATABASE=bludb;HOSTNAME=824dfd4d-99de-440d-9991-629c01b3832d.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=30119;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=mtq37014;PWD=W4Sam6RCrj9zDrfD;",'','')
-
+conn=ibm_db.connect("DATABASE=bludb;HOSTNAME=19af6446-6171-4641-8aba-9dcff8e1b6ff.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=30699;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=jrq38167;PWD=TlqTiHJq0tKGDRwW;",'','')
 
 #HOME--PAGE
 @app.route("/home")
@@ -75,7 +74,7 @@ def register():
             ibm_db.bind_param(stmt1,3,email)
             ibm_db.execute(stmt1)
             msg = 'You have successfully registered !'
-            return render_template('signup.html', msg = msg)
+        return render_template('signup.html', msg = msg)
 
            
         
