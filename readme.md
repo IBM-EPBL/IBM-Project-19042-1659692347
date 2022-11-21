@@ -19,3 +19,6 @@ Personal finance applications will ask users to add their expenses and based on 
 
 ### Demo Link:
 https://youtu.be/1HQwEwcmQIo
+
+### Deployed Link
+http://159.122.181.55:31520/
